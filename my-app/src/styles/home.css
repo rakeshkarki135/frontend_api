@@ -1,0 +1,63 @@
+
+        body{
+            background: whitesmoke;
+        }
+
+        .container{
+            max-width: 60%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
+
+        }
+
+        .student_info{
+            width: 300px;
+            height: auto;
+            border-radius: 20px;
+            background: white;
+            padding: 15px 5px 35px 25px;
+            
+        }
+
+        p{
+            color: black;
+        }
+
+        .btns{
+            display: flex;
+            gap: 10px;
+            margin-top: 35px;
+            margin-right: 21px;
+
+        }
+
+        .a-btns{
+            text-decoration: none;
+            width: 10rem; 
+            background: black;
+            border-radius: 10px;
+            color: white;
+            padding:10px;
+            display: block;
+            text-align: center;
+            
+        }
+
+        .a-btns:hover{
+            background: whitesmoke;
+            color:black;
+            border:solid black 2px;
+        }
+
+        .create{
+            display:flex;
+            justify-content: end;
+            width: 90%;
+            gap:10px;
+            
+        }
