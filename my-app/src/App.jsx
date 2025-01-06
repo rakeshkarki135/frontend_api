@@ -17,7 +17,7 @@ function App() {
     <Navbar />
     
     <Routes>
-      <Route path="/" element={<Home title="rakesh"/>} />
+      <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login/>} />
       <Route path="/student" element={<Student />} />
       <Route path="/register" element={<Register />} />
